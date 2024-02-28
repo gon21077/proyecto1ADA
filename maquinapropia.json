@@ -1,0 +1,9 @@
+{
+    "estados": "A,B,C,D,E,F,G,H,I",
+    "alfabetoEntrada": "a,o",
+    "alfabetoCinta": "m,a,o,*",
+    "delta": "(A,a,*,B,R);(A,o,*,E,R);(A,*,-,H,R);(A,m,-,H,R);(B,o,m,E,R);(B,m,-,H,R);(B,*,-,H,R);(B,a,m,C,R);(C,o,m,E,R);(C,*,-,I,R);(C,a,-,D,R);(C,m,-,H,R);(D,a,m,C,R);(D,o,m,E,R);(D,*,-,I,R);(D,m,-,H,R);(E,a,m,E,R);(E,o,m,E,R);(E,*,-,F,L);(E,m,o,G,L);(F,a,o,F,L);(F,o,*,F,L);(F,*,-,E,R);(F,m,o,F,L);(G,a,o,G,L);(G,o,-,G,L);(G,*,-,E,R);(G,m,o,G,L);",
+    "estadoInicial": "A",
+    "estadoAceptacion": "I",
+    "estadoRechazo": "H"
+}
