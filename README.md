@@ -60,10 +60,11 @@ La configuración de la máquina de Fibonacci ha sido seleccionada de la soluci�
 |Estado de rechazo|g|
 |Albeto de entrada|{1}|
 |Alfabeto de Salida|{b,x,*}|
-|Función de transición|Consultar archivo [funcion transicion](./funcion transicion)|
+|Función de transición|Consultar archivo [funcion transicion](./Transiciones.pdf)|
 
 #### Diagrama de la máquina 
-<a href="logo github"><img src="/Diagrama Maquina" align="middle"></a>
+<a href="logo github">
+<img src="https://github.com/gon21077/proyecto1ADA/blob/main/Diagrama%20Maquina.png" align="middle"></a>
 
 También disponible [aquí](https://lucid.app/lucidchart/67f28186-2fd6-4094-97ea-28c89341747f/edit?invitationId=inv_6db535a5-ceae-40ca-b550-30ddd4cbed00)
 ## 2. Funcionamiento del Programa
@@ -112,4 +113,17 @@ Para la realización de las pruebas, se utilizó el archivo `test.py` en donde n
 |17| 82.23091450007632|
 
 ### b. Diagrama de dispersión
+<a href="logo github">
+<img src="https://github.com/gon21077/proyecto1ADA/blob/main/Dispersi%C3%B3n.jpg" align="middle"></a>
+
 ### c. Ajuste de curva
+#### Ajuste polinomial 
+El ajuste polinomial presenta un coeficiente de determinación de 92.09%.
+<a href="logo github">
+<img src="https://github.com/gon21077/proyecto1ADA/blob/main/Ajuste2.jpg" align="middle"></a>
+
+El ajuste polinomial presenta un coeficiente de determinación de 93.72%.
+<a href="logo github">
+<img src="https://github.com/gon21077/proyecto1ADA/blob/main/Ajuste.jpg" align="middle"></a>
+
+
