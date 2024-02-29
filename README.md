@@ -122,6 +122,7 @@ El ajuste polinomial presenta un coeficiente de determinación de 92.09%.
 <a href="logo github">
 <img src="https://github.com/gon21077/proyecto1ADA/blob/main/Ajuste2.jpg" align="middle"></a>
 
+#### Ajuste exponencial 
 El ajuste polinomial presenta un coeficiente de determinación de 93.72%.
 <a href="logo github">
 <img src="https://github.com/gon21077/proyecto1ADA/blob/main/Ajuste.jpg" align="middle"></a>
