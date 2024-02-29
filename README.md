@@ -18,15 +18,15 @@ En nuestro programa se utiliza un archivo `.json` para poder cargar una máquina
 ```
 En donde, `delta` corresponde a la función de transición. Sus elementos son:
 * "a" es el estado inicial
-* "0" es carácter  de entrada
-* "*" es el carácter  que se escribe en la cinta
+* "0" es caracter de entrada
+* "*" es el caracter  que se escribe en la cinta
 * "b" es el estado al que pasa
 * "R" es la dirección a donde se mueve
 
 Tomar nota de que:
 
-* "*" es el carácter que representa un espacio vacío. 
-* "-" representa que no se escribe nada
+* "*" es el caracter que representa un espacio vacío. 
+* "-" representa que no se escribe nada (se deja el caracter que ya estaba escrito).
 * "R" representa movimiento hacia la derecha, "N" no se realiza un movimiento, "L" movimiento a la izquierda. 
 
 
@@ -58,7 +58,7 @@ La configuración de la máquina de Fibonacci ha sido seleccionada de la soluci�
 |Estado inicial|q0|
 |Estado de aceptación|qf|
 |Estado de rechazo|g|
-|Albeto de entrada|{1}|
+|Alfabeto de entrada|{1}|
 |Alfabeto de Salida|{b,x,*}|
 |Función de transición|Consultar archivo [funcion transicion](./Transiciones.pdf)|
 
@@ -123,7 +123,7 @@ El ajuste polinomial presenta un coeficiente de determinación de 92.09%.
 <img src="https://github.com/gon21077/proyecto1ADA/blob/main/Ajuste2.jpg" align="middle"></a>
 
 #### Ajuste exponencial 
-El ajuste polinomial presenta un coeficiente de determinación de 93.72%.
+El ajuste exponencial presenta un coeficiente de determinación de 93.72%.
 <a href="logo github">
 <img src="https://github.com/gon21077/proyecto1ADA/blob/main/Ajuste.jpg" align="middle"></a>
 
