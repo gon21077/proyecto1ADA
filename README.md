@@ -127,4 +127,29 @@ El ajuste exponencial presenta un coeficiente de determinación de 93.72%.
 <a href="logo github">
 <img src="https://github.com/gon21077/proyecto1ADA/blob/main/Ajuste.jpg" align="middle"></a>
 
+Encontramos que la curva que mejor se ajusta a los datos es:
+
+$$f(n) = 7 * 10^{-5} * e^{0.7228n}$$
+
+Siendo entonces:
+
+$$g_{1}(n) = 8 * 10^{-5} * e^{0.7228n}$$
+
+$$g_{2}(n) = 6 * 10^{-5} * e^{0.7228n}$$
+
+Entonces encontramos que la siguiente desigualdad se cumple:
+
+$$c_{1}g_{1}(n) \leq f(n) \leq c_{2}g_{2}(n)$$
+
+A partir de algún $n_{0} \in \mathbb{Z}^{+}$
+
+Pues $g_{1}(n)$ se desplaza hacia la izquierda y es una curva paralela a $f(n)$ y $g_{2}(n)$ se desplaza hacia la derecha y es una curva paralela a $f(n)$.
+
+Por lo tanto podemos decir que $$f(n) = \theta (e^{0.7228n})$$
+
+
+
+
+
+
 
